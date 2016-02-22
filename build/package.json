@@ -1,0 +1,32 @@
+{
+  "name": "lean-service-creation-kit",
+  "version": "0.0.1",
+  "description": "Lean Service Creation (LSC) Kit",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp build-site",
+    "server": "gulp serve-site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futurice/lean-service-creation-kit.git"
+  },
+  "keywords": [
+    "Deezer",
+    "Soccer",
+    "InApp"
+  ],
+  "author": "Michael Tauer <michael.tauer@futurice.com>",
+  "engines": {
+    "node": "0.12.4",
+    "npm": "2.10.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-sass": "^2.2.0"
+  }
+}
